@@ -1,0 +1,190 @@
+body{
+    background-color: #1c1c1c;
+}
+
+
+/*Home Page*/
+.navBar{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#compName{
+    font-size: 35;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    text-shadow: 1px 1px deeppink;
+}
+
+a{
+    color: azure;
+    text-decoration: none;
+}
+
+/* Hover CSS */
+
+#hover:hover{
+    font-size: 42px;
+    background-color: azure;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+#hover2:hover{
+    font-size: 42px;
+    background-color: azure;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#hover3:hover{
+    font-size: 42px;
+    background-color: azure;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#hover4:hover{
+    font-size: 42px;
+    background-color: azure;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* Cover Photos */
+#coverPhoto{
+    height: 450px;
+    width: 98%;
+    border-radius: 1px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.box .text {
+
+    color: azure;
+    font-size: 65px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 3px 2px black;
+    position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0px;
+        right: 55%;
+        top: 78%;
+}
+
+/* Clean Like A Pro */
+.proClean{
+    background-color: azure;
+    width: 400px;
+    margin-left: 2%;
+    border-radius: 1px;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+/* Extra Info */
+#extraInfo{
+    color: azure;
+    
+    width: 40%;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 55%;
+    top: 103%;
+    left: 50%;
+}
+
+#Header1{
+    color: azure;
+    width: 40%;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 55%;
+    top: 95%;
+    left: 50%;
+}
+
+/* Contact Page */
+#imgCon{
+    color: azure;
+    font-size: 65px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 3px 2px black;
+    position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0px;
+        right: 65%;
+        top: 78%;
+}
+
+/*Contact Form*/
+
+
+.contact-section h1{
+    text-align: center;
+    color: azure;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background: #1c1c1c;
+    margin: 40px auto;
+
+}
+
+.contact-section{
+    max-width: 98%;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: azure;
+    transition: 0.5s;
+}
+
+.contact-form-text:hover{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #3498DB;
+    color: fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: #F1C40F;
+
+}
