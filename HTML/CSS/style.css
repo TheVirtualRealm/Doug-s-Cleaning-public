@@ -51,6 +51,13 @@ a{
     border-radius: 10px;
 }
 
+#hover5:hover{
+    font-size: 42px;
+    background-color: azure;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
 /* Cover Photos */
 #coverPhoto{
     height: 450px;
