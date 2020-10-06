@@ -9,10 +9,23 @@
     font-family: montserrat;
     background: #51565a;
   }
+
+  .banner-cover-text{
+    display: block;
+    text-align: center;
+    color: #111111;
+    text-shadow: 0px 0px 7px white;
+    font-size: 55px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+  }
+
   nav{
     background: #1c1c1c;
     height: 80px;
     width: 100%;
+    position: fixed;
   }
   label.logo{
     color: white;
@@ -39,6 +52,7 @@
   }
   a.active,a:hover{
     background: #1b9bff;
+    color: #1c1c1c;
     transition: .5s;
   }
   .checkbtn{
@@ -53,17 +67,153 @@
   #check{
     display: none;
   }
- #coverPhoto{
-     display: none;
- }
-
-  h1.text {
-      display: none;
-  }
 
   #logo{
       color: azure;
   }
+
+  .banner{
+    width: 100%;
+    display: block;
+  }
+  .banner > .banner-image{
+    width: 100%;
+    height: 690px;
+    
+  }
+
+  h1.text1 p.text1{
+    margin: 5px;
+  }
+
+  table{
+    width: auto;
+    padding: 5px;
+    margin: 0px;
+    border-spacing: 5px;
+    
+  }
+
+  table, th, td{
+    border: 1px;
+    
+  }
+
+    td.company-statement{
+    background: #111111;
+    padding: 15px;
+    border-radius: 2px;
+    color: azure;
+    font-size: 20px;
+  }
+  td.call-to-action{
+    padding: 15px;
+    border-radius: 2px;
+    color: azure;
+    font-size: 20px;
+    background: #111111;
+  }
+
+
+  table.call-to-action-2{
+    background: #111111;
+    color: azure;
+    padding: 5px;
+    border-spacing: 5px;
+  }
+
+  table.call-to-action-2-table{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 2px;
+    color: azure;
+    font-size: 20px;
+    background: #111111;
+  }
+  
+
+  article{
+    overflow-x: auto;
+  }
+
+
+  .services{
+    background: #111111;
+    margin: 15px;
+    border-radius: 2px;
+  }
+
+  .service-table-text{
+    color: azure;
+    margin: ;
+  }
+
+  .service-table-text h1{
+    font-style: bold;
+  }
+
+  .service-table{
+    border
+    border-radius: 1px 15px;
+  }
+
+  .contact-section{
+    padding: 40px 0;
+  }
+
+  .contact-section h1{
+    text-align: center;
+    color: 1c1c1c;
+  }
+
+  .contact-form{
+    max-width: 100%;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #1c1c1c;
+    padding: 20px 40px;
+    outline: none;
+    color: azure;
+    transition: 0.5s;
+  }
+
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #1b9bff;
+  }
+
+  .contact-form-text:hover{
+    box-shadow: 0 0 10px 4px #ffbf00;
+  }
+
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+
+  .contact-form-btn{
+    float: right;
+    border: 0;
+    background: #1b9bff;
+    color: #1c1c1c;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .contact-form-btn:hover{
+    background: #ffbf00;
+  }
+
 
   @media (max-width: 952px){
     label.logo{
@@ -73,8 +223,13 @@
     nav ul li a{
       font-size: 16px;
     }
+    .banner > .banner-image{
+      height: 690px;
+    }
 
   }
+
+
   @media (max-width: 858px){
     .checkbtn{
       display: block;
@@ -99,11 +254,24 @@
     }
     a:hover,a.active{
       background: none;
-      color: #44eded;
+      color: #1b9bff;
     }
     #check:checked ~ ul{
       left: 0;
     }
+    .banner > .banner-image{
+      height: 450px;
+    }
+
+    .text-box{
+      width: 96%;
+    }
+
+    td{
+      float: left;
+    }
+
+
   }
 
 

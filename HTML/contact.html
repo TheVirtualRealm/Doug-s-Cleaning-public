@@ -4,6 +4,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/style.css">
+        
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     </head>
@@ -16,7 +17,7 @@
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
-        <label class="logo"><a id="logo"href="home.html">DCS</a></label>
+        <label class="logo">DCS</label>
         <ul>
             <li><a href="home.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
@@ -24,6 +25,20 @@
             <li><a href="about.html">About</a></li>
             <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
-
     </nav>
 
+    <!-- Cover Photo -->
+    <div class="banner">
+        <img class="banner-image" src="Images/contact.jpg" alt="Black refinished hardwood floors">
+        </div>
+
+
+    <!--Responsive Contact Form -->
+    <form action="contact.html" class="contact-form" method="POST">
+        <input type="text" class="contact-form-text" name="name" placeholder="First & Last Name">
+        <input type="email" class="contact-form-text" name="email" placeholder="Email Address">
+        <input type="text" class="contact-form-text" name="subject" placeholder="Subject">
+        <textarea class="contact-form-text" name="message" placeholder="Message">  </textarea>
+        <input type="submit" class="contact-form-btn" name="submit" value="Send">
+
+    </form>
